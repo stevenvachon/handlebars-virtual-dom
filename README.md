@@ -27,7 +27,7 @@ h("div", [
 ## Usage
 ### Server/Browserify
 ```js
-var handlebarsReact = require("handlebars-virtual-dom");
+var handlebarsVirtualDom = require("handlebars-virtual-dom");
 var result = new handlebarsVirtualDom(options).compile("<h1>{{title}}</h1>");
 ```
 ### AMD/etc
