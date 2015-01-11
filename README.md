@@ -14,11 +14,11 @@ into this:
 ```js
 h("div", [
 	"value1",
-	this.props.variable1,
-	this.props.variable2 ? h("span", [
+	context.variable1,
+	context.variable2 ? h("span", [
 		"value2"
 	]) : "nothing",
-	h("span", {"data-attr":(this.props.variable3 ? "value3" : "") + " value4"}, [
+	h("span", {"data-attr":(context.variable3 ? "value3" : "") + " value4"}, [
 		"value5"
 	])
 );
