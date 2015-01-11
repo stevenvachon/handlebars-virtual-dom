@@ -1,5 +1,5 @@
 # handlebars-virtual-dom
-> Compile Handlebars templates to [virtual-dom](https://github.com/Matt-Esch/virtual-dom/) (Node.js)
+> Compile Handlebars templates to [virtual-dom](https://github.com/Matt-Esch/virtual-dom/)
 
 Compile this:
 ```handlebars
