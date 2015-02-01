@@ -1,5 +1,5 @@
 # handlebars-virtual-dom
-> Compile Handlebars templates to [virtual-dom](https://github.com/Matt-Esch/virtual-dom/)
+> Compile Handlebars templates to [virtual-dom](https://github.com/Matt-Esch/virtual-dom/).
 
 Compile this:
 ```handlebars
@@ -31,7 +31,7 @@ var handlebarsVirtualDom = require("handlebars-virtual-dom");
 var result = new handlebarsVirtualDom(options).compile("<h1>{{title}}</h1>");
 ```
 ### AMD/etc
-Accessible via `define()` or `windows.handlebarsVirtualDom`.
+Accessible via `define()` or `window.handlebarsVirtualDom`.
 
 ## Options
 See [handlebars-html-parser](https://github.com/stevenvachon/handlebars-html-parser).
